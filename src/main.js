@@ -26,6 +26,7 @@ let gallery = new SimpleLightbox('.galleryEl a', {
 
 import { fetchData } from './js/pixabay-api.js';
 import { renderData } from './js/render-functions.js';
+import iconUrl from './img/error.svg';
 
 const fetchUserForm = document.querySelector('form');
 const userList = document.querySelector('.galleryEl');
